@@ -3,7 +3,7 @@ package chapter01.section01;
 
 /**
  * 메소드에 대한 설계문서(Spec) 작성
- *
+ * <p>
  * 작성 메소드 이름: sum
  * 기능 구현에 필요한 재료(argument): int a, int b
  * 반환 값의 타입: int
