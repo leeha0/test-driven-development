@@ -19,10 +19,5 @@ public class AccountTest2 {
          * 계좌를 생성한다.
          */
         Account account = new Account();
-
-        // TODO account == null 구문은 실행되지 않는다.
-        if (account == null) {
-            throw new Exception("계좌생성 실패");
-        }
     }
 }
