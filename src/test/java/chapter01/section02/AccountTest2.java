@@ -32,18 +32,12 @@ public class AccountTest2 {
          * 잔고를 조회한다.
          */
         Account account = new Account(10000);
-        if (account.getBalance() != 10000) {
-            fail("getBalance() => " + account.getBalance()); // JUnit에서 제공하는 메소드로, 호출 즉시 테스트 케이스가 실패한다.
-        }
+        assertEquals(10000, account.getBalance());
 
         account = new Account(1000);
-        if (account.getBalance() != 1000) {
-            fail("getBalance() => " + account.getBalance());
-        }
+        assertEquals(1000, account.getBalance());
 
         account = new Account(0);
-        if (account.getBalance() != 0) {
-            fail("getBalance() => " + account.getBalance());
-        }
+        assertEquals(0, account.getBalance());
     }
 }
