@@ -1,3 +1,5 @@
+package chapter10.section01;
+
 public class VendingMachine {
     private int changeAmount = 0;
 

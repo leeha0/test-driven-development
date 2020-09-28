@@ -1,3 +1,5 @@
+package chapter10.section01;
+
 import lombok.Getter;
 import lombok.experimental.Accessors;
 

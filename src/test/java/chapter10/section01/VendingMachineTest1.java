@@ -1,6 +1,8 @@
+package chapter10.section01;
+
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class VendingMachineTest1 {
 
@@ -25,7 +27,7 @@ public class VendingMachineTest1 {
         CoinSet expectedCoinSet = new CoinSet(); // 코인 컨테이너 클래스
         expectedCoinSet.add(50);
         assertEquals("700원 투입 후 650원 음료선택", expectedCoinSet, machine.getChangeCoinSet());
-        // 동치 비교 실패로 인해 CoinSet 클래스의 equals, toString 재정의
+        // 동치 비교 실패로 인해 chapter10.section01.CoinSet 클래스의 equals, toString 재정의
     }
 
     @Test // 거스름돈 180원

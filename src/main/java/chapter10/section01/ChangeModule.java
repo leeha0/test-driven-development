@@ -1,6 +1,8 @@
+package chapter10.section01;
+
 public class ChangeModule {
 
-    // VendingMachine 잔돈 상태에 영향을 받지 않도록 별도 모듈로 분리
+    // chapter10.section01.VendingMachine 잔돈 상태에 영향을 받지 않도록 별도 모듈로 분리
     public CoinSet getChangeCoinSet(int changeAmount) {
         CoinSet coinSet = new CoinSet();
         int remainChangeAmount = changeAmount;
