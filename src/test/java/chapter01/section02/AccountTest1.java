@@ -1,7 +1,5 @@
 package chapter01.section02;
 
-import org.junit.Test;
-
 
 /**
  * 클래스 이름은 Account
@@ -11,9 +9,8 @@ import org.junit.Test;
  *  - 출금
  * 금액은 원 단위로(예: 천 원 = 1000)
  */
-public class AccountTest {
+public class AccountTest1 {
 
-    @Test
     public void testAccount() throws Exception {
         /**
          * 계좌를 생성한다.
@@ -27,7 +24,7 @@ public class AccountTest {
 
     // 메인 메소드를 통한 테스트 케이스 실행
     public static void main(String[] args) {
-        AccountTest test = new AccountTest();
+        AccountTest1 test = new AccountTest1();
         try {
             test.testAccount(); // 테스트 케이스 실행
             // TODO 리팩토링 - 테스트 케이스가 늘어날 경우 일부 테스트가 실패하면 더 이상 테스트가 진행되지 않는다.
