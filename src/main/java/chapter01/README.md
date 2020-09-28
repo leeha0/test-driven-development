@@ -94,3 +94,5 @@ Clean code that works
   
 - JUnit 
   - JUnit4는 Java SDK 5.0 이상부터 지원한다.
+  - JUnit은 테스트 성공 여부를 GUI를 통해 제공한다.
+  

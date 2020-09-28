@@ -15,7 +15,7 @@ public class AccountTest1 {
         /**
          * 계좌를 생성한다.
          */
-        Account account = new Account();
+        Account account = new Account(10000);
 
         if (account == null) {
             throw new Exception("계좌생성 실패");
